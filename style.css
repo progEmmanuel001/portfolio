@@ -179,7 +179,7 @@ header{
 }  
 /* section */
 .testi{
-  margin-left: 100px;
+  margin-left: 50px;
   margin-top: 40px;
 }  
 .testi .texti{
@@ -218,7 +218,7 @@ header{
 /* media for my section */
 @media screen and (max-width:900px) {
   .testi .texti{
-   margin-left: 20%;
+   margin-left: 10%;
    margin-bottom: 20px;
 }
 .testi{
@@ -380,4 +380,13 @@ nav{
 .avater{
     margin-left: 100px;
 }
+}
+@media screen and (max-width: 525px) {
+  .testi .texti{
+   margin-left: 8%;
+   margin-bottom: 20px;
+}
+.testi{
+  margin-left: 0;
+} 
 }
